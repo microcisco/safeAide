@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gcc="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_setting_center"
+        android:gravity="center"
+        android:background="@color/lvSe"
+        android:textSize="26sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <com.cool.baigu.safeaide.views.Setting_item
+        android:id="@+id/s1"
+        gcc:funcName="开启自动更新"
+        gcc:funcStyle="style1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.cool.baigu.safeaide.views.Setting_item>
+    <com.cool.baigu.safeaide.views.Setting_item
+        android:id="@+id/s2"
+        gcc:funcName="开启黑名单拦截"
+        gcc:funcStyle="style2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.cool.baigu.safeaide.views.Setting_item>
+    <com.cool.baigu.safeaide.views.Setting_item
+        android:id="@+id/s3"
+        gcc:funcName="开启号码归属地显示"
+        gcc:funcStyle="style2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.cool.baigu.safeaide.views.Setting_item>
+    <com.cool.baigu.safeaide.views.Setting_item
+        android:id="@+id/s4"
+        gcc:funcName="开启程序锁看门狗"
+        gcc:funcStyle="style3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.cool.baigu.safeaide.views.Setting_item>
+
+    <com.cool.baigu.safeaide.views.Select_new
+        android:id="@+id/ss1"
+        android:background="@drawable/shape_corner"
+        gcc:t1="归属地风格"
+        gcc:t2="原谅色"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        >
+
+    </com.cool.baigu.safeaide.views.Select_new>
+
+
+
+
+</LinearLayout>

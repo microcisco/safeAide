@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">萌萌锁屏</string>
+    <string name="sample_device_admin">萌萌锁屏</string>
+    <string name="sample_device_admin_description">只向您请求提供锁屏权限，没有其他多余权限哦~</string>
+</resources>

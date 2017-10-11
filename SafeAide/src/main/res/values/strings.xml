@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SafeAide</string>
+    <string name="version_name">测试版</string>
+    <string name="version_code">1.0.0</string>
+    <string name="app_title">369手机卫士</string>
+    <string name="app_sub">369手机卫士是世界上最牛逼的安全卫士，我卡卡卡你麻痹的赶紧去瞎咋死使用</string>
+    <string name="app_setting_center">设置中心</string>
+    <string name="app_setting_1">开启自动更新</string>
+    <string name="set_password">设置密码</string>
+    <string name="input_pw">请输入密码</string>
+    <string name="input_pw_aga">请再次输入密码</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="sb1">1.欢迎使用手机防盗</string>
+    <string name="sb2">2.手机卡的绑定</string>
+    <string name="sb3">3.设置安全号码</string>
+    <string name="sb4">4.恭喜你，设置完成</string>
+    <string name="sb5">手机防盗</string>
+
+    <string name="sl">选择联系人</string>
+    <string name="sample_device_admin">安全卫士</string>
+    <string name="sample_device_admin_description">守护您的手机安全</string>
+    <string name="heimingdan">黑名单列表</string>
+    <string name="tj">添加</string>
+    <string name="tjhmd">添加黑名单号码</string>
+    <string name="tel">电话</string>
+    <string name="dx">短信</string>
+    <string name="qb">全部</string>
+    <string name="qd">确定</string>
+    <string name="qx">取消</string>
+    <string name="qsrhmdhm">请输入黑名单号码</string>
+    <string name="jiazai">正在玩命加载...</string>
+    <string name="gaojionju">高级工具</string>
+    <string name="haomaguishudichaxun">号码归属地查询</string>
+    <string name="needhaoma">请输入需要查询的号码</string>
+    <string name="cyhmcx">常用号码查询</string>
+    <string name="cyhmcx1">常用号码查询</string>
+    <string name="smsbackup">短信备份</string>
+    <string name="cxglq">程序管理器</string>
+    <string name="zzjz">正在加载...</string>
+    <string name="jcgl">进程管理</string>
+</resources>

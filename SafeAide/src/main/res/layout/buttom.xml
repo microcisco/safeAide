@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/t1"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:src="@drawable/call_locate_blue"
+        />
+    <ImageView
+        android:id="@+id/t2"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:src="@drawable/call_locate_green"
+        />
+    <ImageView
+        android:id="@+id/t3"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:src="@drawable/call_locate_green"
+        />
+    <ImageView
+        android:id="@+id/t4"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:src="@drawable/call_locate_green"
+        />
+
+</LinearLayout>

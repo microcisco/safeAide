@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cxglq"
+        android:gravity="center"
+        android:background="@color/lvSe"
+        android:textSize="26sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:id="@+id/tv_lbcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内存可用500GB"
+            />
+        <TextView
+            android:id="@+id/tv_wbcc"
+            android:layout_marginLeft="100sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SD卡可用500GB"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户软件：23个"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/zzjz"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+        <ListView
+            android:id="@+id/lv_all_soft"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户软件"
+            android:background="@color/colorPrimary"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

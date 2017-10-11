@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gcc="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:background="@drawable/blue_bkg"
+        android:gravity="center"
+        android:text="@string/sb3"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sim卡如果发生变化:"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_marginTop="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="就会给安全号码发送报警短信"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/hh"
+            android:layout_marginTop="7sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="安全号码"
+            />
+        <TextView
+            android:id="@+id/select_safe_code"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:textSize="20sp"
+            android:text="选择安全号码"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:background="@drawable/dg_btn_confirm_normal"
+            />
+
+    </LinearLayout>
+
+    <com.cool.baigu.safeaide.views.Buttom_item
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        gcc:tt1="3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/p11"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="10sp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/dg_btn_confirm_normal"
+            android:src="@drawable/next"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/p10"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dg_btn_confirm_normal"
+            android:src="@drawable/pre"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10sp"
+            android:layout_marginStart="10sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/p11"
+            android:layout_marginBottom="30sp"
+            android:src="@drawable/step_3"
+            android:id="@+id/imageView" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

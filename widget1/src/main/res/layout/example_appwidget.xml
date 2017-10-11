@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今日已喝水2次"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_toRightOf="@id/i1"
+        android:id="@+id/i2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                  目标喝水8次"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_below="@id/i2"
+        android:id="@+id/i3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="距离下次喝水还剩           "
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_below="@id/i2"
+        android:layout_toRightOf="@id/i3"
+        android:id="@+id/i4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1小时2分钟"
+        android:textSize="16sp"
+        />
+    <EditText
+        android:id="@+id/i5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="60分钟"
+        android:layout_alignBottom="@+id/i6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/i6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:layout_below="@+id/i3"
+        android:layout_toRightOf="@+id/i5"
+        android:layout_toEndOf="@+id/i5"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张三"
+
+            android:textSize="30sp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+
+            />
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18961856062"
+            android:textSize="30sp"
+
+            android:layout_toRightOf="@id/q1"
+            android:layout_marginLeft="20sp"
+
+            />
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+

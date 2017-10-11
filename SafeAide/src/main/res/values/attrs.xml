@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Setting_item">
+    <attr name="funcName" format="string"/>
+    <attr name="funcStyle">
+    <enum name="style1" value="1"> </enum>
+    <enum name="style2" value="2"> </enum>
+    <enum name="style3" value="3"> </enum>
+    </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Set1_item">
+    <attr name="tt" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="Buttom_item">
+    <attr name="tt1" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="Select_new">
+    <attr name="t1" format="string"/>
+    <attr name="t2" format="string"/>
+    </declare-styleable>
+
+</resources>

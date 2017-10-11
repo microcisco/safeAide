@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rl_setting_last_select"
+    android:id="@+id/funcStyle"
+    >
+
+    <TextView
+        android:id="@+id/funcName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_setting_1"
+        android:textSize="22dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        />
+    <ImageView
+        android:id="@+id/statue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/off"
+        android:layout_alignParentRight="true"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        />
+
+</RelativeLayout>

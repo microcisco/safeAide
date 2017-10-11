@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="62sp"
+        android:background="@drawable/iv_hone_select"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/i1"
+            android:layout_marginTop="4sp"
+            android:layout_marginLeft="4sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18961856062"
+            android:layout_alignParentTop="true"
+            android:textSize="22sp"
+            android:textColor="@color/colorAccent"
+            />
+        <TextView
+            android:id="@+id/i2"
+            android:layout_marginTop="4sp"
+            android:layout_marginLeft="4sp"
+            android:textSize="22sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话拦截"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_delete_normal"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8sp"
+            android:layout_marginTop="8sp"
+            android:layout_centerVertical="true"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

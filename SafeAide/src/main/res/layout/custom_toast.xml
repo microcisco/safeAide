@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="江苏上海电信"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/toastBG"
+        android:layout_width="108dp"
+        android:layout_height="119dp"
+        android:src="@drawable/pkq"
+        />
+
+
+</LinearLayout>

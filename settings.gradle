@@ -1,0 +1,1 @@
+include ':app', ':myapplication', ':SafeAide', ':yijian', ':gps', ':widget1'
